@@ -1,0 +1,13 @@
+{
+  "id" : "https://Gall2908.github.io/Metaverse-Archistar-Museum/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Gall2908/Metaverse-Archistar-Museum project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Gall2908.github.io/Metaverse-Archistar-Museum/manifests/Federica_Gallocchio_manifest.json",
+    "label" : [ "Metaverse and Archistar's Museums", { }, { } ]
+  } ]
+}

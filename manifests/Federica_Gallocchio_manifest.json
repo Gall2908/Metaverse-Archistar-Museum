@@ -1,0 +1,383 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Gall2908.github.io/Metaverse-Archistar-Museum/manifests/Federica_Gallocchio_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : [ "Metaverse and Archistar's Museums", { }, { } ],
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "The project aims to indagate the relevance of the architecture inside different scenarios, In the first part the architecture had a fundamental role in the artistic perspective of the museum, giving more impact to the structure of the museum, rather than the collection. Instead in digital museums sometimes both are relevant, to express the concept behind the artwork, like in the third exhibition of DiMoDa. In other cases, there is an abandonment of the architectural relevance behind the collection. Instead, the most relevant part of the exhibition, MODA 's collection, or the Retrospective show is the artwork itself.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://37e4d21b-a0ec-44bb-9b11-b13d7c9e6b0f",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ddfa996e-d28b-4997-80c1-9cdce0a31b35",
+      "@type" : "sc:Canvas",
+      "label" : "Museum Guggenheim Bilbao",
+      "height" : "582",
+      "width" : "1102",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6852597b-78a4-419a-964d-7f34f4c703b8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/Guggenheim%20Museum.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/Guggenheim%20Museum.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 641364,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 582,
+          "width" : 1102
+        },
+        "on" : "http://ddfa996e-d28b-4997-80c1-9cdce0a31b35"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Guggenheim Museum Bilbao"
+      }, {
+        "label" : "Creator",
+        "value" : "Frank O' Ghery"
+      }, {
+        "label" : "Subject",
+        "value" : "Gehry, Frank, Deconstructivist,Guggenheim, Solomon, Bilbao"
+      }, {
+        "label" : "Description",
+        "value" : "The Guggenheim Museum Bilbao was born in 1997, when the Solomon R. Guggenheim Foundation and the Basque Country Autonomous Community established a partnership to have a new symbol for the city. The work was commissioned directly to Frank O’ Gehry."
+      }, {
+        "label" : "Type",
+        "value" : "Image"
+      }, {
+        "label" : "Format",
+        "value" : "Image/jpg"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.domusweb.it/en/buildings/guggenheim-museum-bilbao.html"
+      }, {
+        "label" : "Relation",
+        "value" : {
+          "@value" : "Is Part Of: https://www.treccani.it/vocabolario/archistar_%28Neologismi%29/",
+          "@language" : "it"
+        }
+      }, {
+        "label" : "Right",
+        "value" : "Photo: Christian Richters"
+      } ]
+    }, {
+      "@id" : "http://1a6ba024-08f4-46d0-985b-5726572a140e",
+      "@type" : "sc:Canvas",
+      "label" : "MAXXI Museum",
+      "height" : "436",
+      "width" : "1100",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2da62403-7b69-4fe9-aa79-add8cc077b00",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/MAXXI%20Museum.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/MAXXI%20Museum.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 479600,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 436,
+          "width" : 1100
+        },
+        "on" : "http://1a6ba024-08f4-46d0-985b-5726572a140e"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "MAXXI Museum"
+      }, {
+        "label" : "Creator",
+        "value" : "Zaha Hadid"
+      }, {
+        "label" : "Subject",
+        "value" : "Hadid, Zaha, Deconstructivist, "
+      }, {
+        "label" : "Description",
+        "value" : "The design of the museum was thought to have an interaction with the visitors, entering inside to a communicative space, where everything was related to the reality outside, with the curves, that recall the surrounding environment and the natural light that expands inside, she wanted to create: “a new fluid kind of spatiality of multiple perspective points and fragmented geometry, designed to embody the chaotic fluidity of modern life”."
+      }, {
+        "label" : "Type",
+        "value" : "Image"
+      }, {
+        "label" : "Format",
+        "value" : "Image/jpg"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.archdaily.com/43822/maxxi-museum-zaha-hadid-architects"
+      }, {
+        "label" : "Relation",
+        "value" : {
+          "@value" : "Is Part Of: https://www.treccani.it/vocabolario/archistar_%28Neologismi%29/",
+          "@language" : "it"
+        }
+      }, {
+        "label" : "Right",
+        "value" : "Photo: Iwan Baan"
+      } ]
+    }, {
+      "@id" : "http://91b4d7bd-e291-44c4-9a1a-5cff7d6a93c6",
+      "@type" : "sc:Canvas",
+      "label" : "Double Headed Hercules",
+      "height" : "792",
+      "width" : "793",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://908dd988-0beb-4a0a-9e82-46dcbfc86f92",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/Double%20Headed%20Hercules.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/Double%20Headed%20Hercules.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 628056,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 792,
+          "width" : 793
+        },
+        "on" : "http://91b4d7bd-e291-44c4-9a1a-5cff7d6a93c6"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Double Headed Hercules, Ancient Sculpture Hybrids"
+      }, {
+        "label" : "Creator",
+        "value" : "Neil Barrett"
+      }, {
+        "label" : "Subject",
+        "value" : "non-fungible tokens"
+      }, {
+        "label" : "Description",
+        "value" : "The MODA museum presents the collection Ancient Sculpture Hybrids, made by Neil Barrett. Neil Barrett specialized in fashion, art, and design, and launch his first NFT collection in 2022 combining figures from ancient Rome and Greek with contemporary subjects. "
+      }, {
+        "label" : "Type",
+        "value" : "Image"
+      }, {
+        "label" : "Format",
+        "value" : "Image/jpg"
+      }, {
+        "label" : "Source",
+        "value" : "https://nftcalendar.io/event/ancient-sculpture-hybrids-by-neil-barrett/"
+      }, {
+        "label" : "Relation",
+        "value" : "References: https://www.moda.xyz/neil-barrett"
+      }, {
+        "label" : "Right",
+        "value" : "MODA"
+      } ]
+    }, {
+      "@id" : "http://b72db1b4-5897-426f-aca0-27616f53c747",
+      "@type" : "sc:Canvas",
+      "label" : "DiMoDa 3.0, Gateways and Talismans",
+      "height" : "1406",
+      "width" : "2500",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e0053584-4778-43f3-b5cb-f4bd6123a00a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/Gateways%20and%20Talismans.png/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/Gateways%20and%20Talismans.png",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 3515000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1406,
+          "width" : 2500
+        },
+        "on" : "http://b72db1b4-5897-426f-aca0-27616f53c747"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Gateways and Talismans"
+      }, {
+        "label" : "Creator",
+        "value" : "DiMoDa, Siggraph Asia"
+      }, {
+        "label" : "Subject",
+        "value" : "exhibitions (events)"
+      }, {
+        "label" : "Description",
+        "value" : "The work of SIGGRAPH Asia: Mind-Body Dualism was hosted in DiMoDa, and presented with Gateways and Talismans curated in collaboration with Nhung Walsh for Siggraph Asia 2017."
+      }, {
+        "label" : "Type",
+        "value" : "Image"
+      }, {
+        "label" : "Format",
+        "value" : "Image/png"
+      }, {
+        "label" : "Source",
+        "value" : "https://sa2017.siggraph.org/attendees/art-gallery/event/193.htm"
+      }, {
+        "label" : "Relation",
+        "value" : "References: https://dimoda.art/artists"
+      }, {
+        "label" : "Right",
+        "value" : "DiMoDa, Siggraph Asia"
+      } ]
+    }, {
+      "@id" : "http://6b115a9d-5980-4897-b11d-0bc7f8e5c19c",
+      "@type" : "sc:Canvas",
+      "label" : "Retrospective",
+      "height" : "1024",
+      "width" : "576",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://49dd0c13-9c4a-4235-a1ed-e21eced380d0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/Retrospective.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/Retrospective.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 589824,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1024,
+          "width" : 576
+        },
+        "on" : "http://6b115a9d-5980-4897-b11d-0bc7f8e5c19c"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Retrospective"
+      }, {
+        "label" : "Creator",
+        "value" : "Federico Clapis"
+      }, {
+        "label" : "Subject",
+        "value" : "exhibitions (events)"
+      }, {
+        "label" : "Description",
+        "value" : "The aim of the show Retrospective, made by Federico Clapis, was to connect the artist’s audience to his collection. The show was made in collaboration with MoCDA and hosted on the platform Spatial.io"
+      }, {
+        "label" : "Type",
+        "value" : "Image"
+      }, {
+        "label" : "Format",
+        "value" : "Image/jpg"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.mocda.org/exhibitions/clapis-retrospective"
+      }, {
+        "label" : "Relation",
+        "value" : "Has Format:https://www.spatial.io/s/Clapis-Retrospective-609444436c51d50edeac23c0?share=6870747047115192652"
+      } ]
+    }, {
+      "@id" : "http://23802434-d17e-472f-bdeb-752c3ac7991f",
+      "@type" : "sc:Canvas",
+      "label" : "TIME",
+      "height" : "552",
+      "width" : "906",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b377f223-c9fb-4dae-a257-fa62ffd80b3d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/TIME.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/TIME.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 500112,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 552,
+          "width" : 906
+        },
+        "on" : "http://23802434-d17e-472f-bdeb-752c3ac7991f"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "TIME"
+      }, {
+        "label" : "Creator",
+        "value" : "Giulio Marchetti"
+      }, {
+        "label" : "Subject",
+        "value" : "art exhibitions"
+      }, {
+        "label" : "Description ",
+        "value" : "TIME was the first exhibition solo in the Metaverse, with the title Time, the artist wants to travel through milestones of history that start from classical sculptures unifying poetry and music to art in a visual form, ending with current days. Inside the exhibition, we can find also some of his last works that recall famous artists like Marina Abramovic and Achille Lauro."
+      }, {
+        "label" : "Type",
+        "value" : "Image"
+      }, {
+        "label" : "Format",
+        "value" : "Image/jpg"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.exibart.com/progetti-e-iniziative/tra-le-icone-di-time-la-prima-personale-nel-metaverso-di-giulio-marchetti/amp/"
+      }, {
+        "label" : "Relation",
+        "value" : "Has Format: https://www.spatial.io/s/TIME-VIRTUAL-EXHIBITION-6368023c39dd9e00011435b5?share=3458036293567503235"
+      }, {
+        "label" : "Relation",
+        "value" : "Has Format:https://www.artsteps.com/view/6368cff9f9ab041b8f08ab4f?fbclid=PAAabCyChku4kgB6sE45uA8iBkNlJBrwCRQ_zhbBix3ONqIwUcv3wVzwpSiOE"
+      }, {
+        "label" : "Right",
+        "value" : "Giulio Marchetti"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
